@@ -221,6 +221,7 @@ Tulis ulang widget MyHomePage sebagai berikut:
 ![images](./images/54.png)
 
 Pada menu Refactor, pilih Extract Widget. Tetapkan nama, seperti BigCard, lalu klik Enter.
+
 ![images](./images/56.png)
 ![images](./images/60.png)
 ![images](./images/57.png)
@@ -234,6 +235,7 @@ Output:
 
 Temukan class BigCard dan metode build() yang berada di dalamnya. Sama seperti sebelumnya, panggil menu Refactor pada widget Text. Namun, kali ini Anda tidak akan mengekstrak widget.
 Sebagai gantinya, pilih Wrap with Padding. Tindakan ini menciptakan widget induk baru di sekitar widget Text bernama Padding. Setelah menyimpannya, Anda akan melihat bahwa kata acak tersebut telah memiliki ruang yang lebih luas.
+
 ![images](./images/59.png)
 ![images](./images/58.png)
 
@@ -270,6 +272,7 @@ Output:
 ![images](./images/66.png)
 
 Letakkan kursor Anda di Column, buka menu Refactor (dengan Ctrl+. atau Cmd+.), lalu pilih Wrap with Center.
+
 ![images](./images/67.png)
 
 Output:
@@ -298,6 +301,7 @@ Output:
 
 Dengan terselesaikannya "logika bisnis", saatnya untuk mengerjakan antarmuka pengguna kembali. Meletakkan tombol ‘Like' di sebelah kiri tombol ‘Next' memerlukan Row. Widget Row adalah padanan horizontal dari Column, yang telah Anda lihat sebelumnya.
 Pertama, gabungkan tombol yang ada pada Row. Buka metode build() MyHomePage, letakkan kursor pada ElevatedButton, buka menu Refactor dengan Ctrl+. atau Cmd+., lalu pilih Wrap with Row.
+
 ![images](./images/70.png)
 
 Output:
