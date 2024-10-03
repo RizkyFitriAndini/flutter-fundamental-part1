@@ -33,6 +33,7 @@ Jika sudah selesai proses pembuatan project baru, pastikan tampilan seperti beri
 Untuk menampilkan opsi developer dan mengaktifkan Proses debug USB:
 Di perangkat Android, ketuk Settings > About phone.
 Ketuk Build number tujuh kali.
+
 ![images](./images/05.jpg)
 
 Kembali ke Settings, lalu ketuk System > Developer options.
@@ -51,10 +52,12 @@ Pilih Google USB Driver, lalu klik OK
 Untuk menjalankan aplikasi dari Android Studio di perangkat Android:
 
 Sambungkan perangkat Android ke komputer menggunakan kabel USB. Dialog yang meminta Anda mengizinkan proses debug USB akan muncul di perangkat.
+
 ![images](./images/09.jpg)
 
 Pilih kotak centang Always allow from this computer, lalu ketuk OK.
 Di Android Studio di komputer, pastikan perangkat Anda dipilih di menu drop-down. Klik Ini adalah ikon Run Android Studio.
+
 ![images](./images/10.png)
 
 ## Praktikum 3: Membuat Repository GitHub dan Laporan Praktikum
@@ -65,22 +68,28 @@ Lalu klik tombol "Create repository" lalu akan tampil seperti gambar berikut.
 ![images](./images/12.png)
 
 Kembali ke VS code, project flutter hello_world, buka terminal pada menu Terminal > New Terminal. Lalu ketik perintah berikut untuk inisialisasi git pada project Anda.
+
 ![images](./images/13.png)
 
 Pilih menu Source Control di bagian kiri, lalu lakukan stages (+) pada file .gitignore untuk mengunggah file pertama ke repository GitHub.
 Beri pesan commit "tambah gitignore" lalu klik Commit (✔)
+
 ![images](./images/14.png)
 
 Lakukan push dengan klik bagian menu titik tiga > Push
+
 ![images](./images/15.png)
 
 Di pojok kanan bawah akan tampil seperti gambar berikut. Klik "Add Remote"
+
 ![images](./images/16.png)
 
 Salin tautan repository Anda dari browser ke bagian ini, lalu klik Add remote
+
 ![images](./images/17.png)
 
 Setelah berhasil, tulis remote name dengan "origin"
+
 ![images](./images/18.png)
 
 Lakukan hal yang sama pada file README.md mulai dari Langkah 4. Setelah berhasil melakukan push, masukkan username GitHub Anda dan password berupa token yang telah dibuat (pengganti password konvensional ketika Anda login di browser GitHub).
@@ -90,6 +99,7 @@ Reload halaman repository GitHub Anda, maka akan tampil hasil push kedua file te
 ![images](./images/20.png)
 
 Lakukan push juga untuk semua file lainnya dengan pilih Stage All Changes. Beri pesan commit "project hello_world". Maka akan tampil di repository GitHub Anda seperti berikut.
+
 ![images](./images/21.png)
 
 Kembali ke VS Code, ubah platform di pojok kanan bawah ke emulator atau device atau bisa juga menggunakan browser Chrome. Lalu coba running project hello_world dengan tekan F5 atau Run > Start Debugging. Tunggu proses kompilasi hingga selesai, maka aplikasi flutter pertama Anda akan tampil seperti berikut.
