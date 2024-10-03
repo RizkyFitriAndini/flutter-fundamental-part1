@@ -106,6 +106,7 @@ Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget
 ![images](./images/25.png)
 
 Output:
+
 ![images](./images/26.jpg)
 
 Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode berikut.
@@ -118,6 +119,7 @@ Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gam
 ![images](./images/29.png)
 
 Output:
+
 ![images](./images/30.jpg)
 
 ## Praktikum 5: Menerapkan Widget Material Design dan iOS Cupertino
@@ -125,6 +127,7 @@ Buat file di basic_widgets > loading_cupertino.dart. Import stateless widget dar
 ![images](./images/31.png)
 
 Output:
+
 ![images](./images/37.jpg)
 
 Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButton, TextButton, FloatingActionButton, IconButton, OutlineButton, PopupMenuButton, dan ElevatedButton.
@@ -132,6 +135,7 @@ Buat file di basic_widgets > fab_widget.dart. Import stateless widget dari mater
 ![images](./images/32.png)
 
 Output:
+
 ![images](./images/38.jpg)
 
 Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
@@ -139,6 +143,7 @@ Ubah isi kode main.dart seperti berikut.
 ![images](./images/33.png)
 
 Output:
+
 ![images](./images/39.jpg)
 
 Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.
@@ -146,6 +151,7 @@ Ubah isi kode main.dart seperti berikut.
 ![images](./images/34.png)
 
 Output:
+
 ![images](./images/40.jpg)
 ![images](./images/41.jpg)
 
@@ -154,12 +160,14 @@ Contoh penggunaan TextField widget adalah sebagai berikut:
 ![images](./images/35.png)
 
 Output:
+
 ![images](./images/42.jpg)
 
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
 ![images](./images/36.png)
 
 Output:
+
 ![images](./images/43.jpg)
 ![images](./images/44.jpg)
 
@@ -177,6 +185,7 @@ Terakhir, buka file main.dart pada direktori lib/. Ganti konten file ini dengan 
 ![images](./images/47.png)
 
 Output:
+
 ![images](./images/81.jpg)
 
 ### 2. Menambahkan tombol
@@ -184,12 +193,14 @@ Di bagian bawah lib/main.dart, tambahkan sesuatu pada string di objek Text perta
 ![images](./images/48.png)
 
 Output:
+
 ![images](./images/82.jpg)
 
 Berikutnya, tambahkan tombol di bagian bawah Column, tepat di bawah instance Text kedua.
 ![images](./images/49.png)
 
 Output:
+
 ![images](./images/50.jpg)
 ![images](./images/51.png)
 
@@ -202,6 +213,7 @@ Tindakan terakhir adalah memanggil metode getNext dari callback tombol tersebut.
 ![images](./images/53.png)
 
 Output:
+
 ![images](./images/83.jpg)
 
 ### 3. Memperindah tampilan aplikasi
@@ -217,6 +229,7 @@ Tindakan ini secara otomatis membuat class baru, BigCard, di akhir file saat ini
 ![images](./images/55.png)
 
 Output:
+
 ![images](./images/84.jpg)
 
 Temukan class BigCard dan metode build() yang berada di dalamnya. Sama seperti sebelumnya, panggil menu Refactor pada widget Text. Namun, kali ini Anda tidak akan mengekstrak widget.
@@ -229,6 +242,7 @@ Tindakan ini memungkinkan Anda untuk menentukan widget induk. Ketik "Card" dan t
 ![images](./images/61.png)
 
 Output:
+
 ![images](./images/85.jpg)
 
 Buat perubahan berikut untuk metode build() BigCard.
@@ -241,6 +255,7 @@ Card tersebut masih memiliki masalah: ukuran teks terlalu kecil dan warnanya mem
 ![images](./images/63.png)
 
 Output:
+
 ![images](./images/87.jpg)
 
 Gunakan properti semanticsLabel Text untuk mengganti konten visual widget teks dengan konten semantik yang lebih sesuai untuk pembaca layar:
@@ -250,6 +265,7 @@ Saatnya menempatkan UI di tengah jendela/layar aplikasi. Pertama, ingatlah bahwa
 ![images](./images/65.png)
 
 Output:
+
 ![images](./images/88.jpg)
 ![images](./images/66.png)
 
@@ -257,6 +273,7 @@ Letakkan kursor Anda di Column, buka menu Refactor (dengan Ctrl+. atau Cmd+.), l
 ![images](./images/67.png)
 
 Output:
+
 ![images](./images/89.jpg)
 
 Jika mau, Anda dapat menyesuaikan tampilan ini lebih lanjut.
@@ -268,6 +285,7 @@ Dengan perubahan opsional, MyHomePage mencakup kode berikut:
 ![images](./images/68.png)
 
 Output:
+
 ![images](./images/90.jpg)
 
 ### 4. Menambahkan fungsi
@@ -275,6 +293,7 @@ Scroll ke MyAppState dan tambahkan kode berikut:
 ![images](./images/69.png)
 
 Output:
+
 ![images](./images/91.jpg)
 
 Dengan terselesaikannya "logika bisnis", saatnya untuk mengerjakan antarmuka pengguna kembali. Meletakkan tombol ‘Like' di sebelah kiri tombol ‘Next' memerlukan Row. Widget Row adalah padanan horizontal dari Column, yang telah Anda lihat sebelumnya.
@@ -282,18 +301,22 @@ Pertama, gabungkan tombol yang ada pada Row. Buka metode build() MyHomePage, let
 ![images](./images/70.png)
 
 Output:
+
 ![images](./images/92.jpg)
 
 Buat perubahan berikut:
+
 ![images](./images/71.png)
 
 Output:
+
 ![images](./images/93.jpg)
 
 Berikut satu cara untuk menambahkan tombol kedua untuk MyHomePage. Kali ini, gunakan konstruktor ElevatedButton.icon() untuk membuat tombol dengan ikon. Di bagian atas metode build, pilih ikon yang sesuai tergantung pada apakah pasangan kata saat ini sudah berada di favorit atau tidak. Selain itu, perhatikan penggunaan SizedBox lagi, untuk menjaga jarak antara kedua tombol.
 ![images](./images/72.png)
 
 Output:
+
 ![images](./images/94.jpg)
 ![images](./images/95.jpg)
 
@@ -304,6 +327,7 @@ Pilih keseluruhan MyHomePage, hapus, dan gantikan dengan kode berikut:
 ![images](./images/73.png)
 
 Output:
+
 ![images](./images/96.jpg)
 
 Masukkan StatefulWidget, jenis widget yang memiliki State. Pertama, konversi MyHomePage menjadi widget stateful.
@@ -315,6 +339,7 @@ Widget stateful baru hanya perlu melacak satu variabel: selectedIndex. Buat 3 pe
 ![images](./images/74.png)
 
 Output:
+
 ![images](./images/97.jpg)
 
 Tempatkan kode berikut di bagian atas metode build _MyHomePageState, tepat sebelum return Scaffold:
@@ -325,6 +350,7 @@ Berikut tampilan _MyHomePageState setelah satu perubahan tersebut:
 ![images](./images/77.png)
 
 Output:
+
 ![images](./images/98.jpg)
 
 Sekali lagi, gunakan menu Refactor Flutter di VS Code untuk membuat perubahan yang diperlukan. Namun, proses kali ini sedikit lebih rumit:
@@ -339,6 +365,7 @@ Sekarang kode Anda dapat memutuskan untuk menampilkan label dengan membuat kueri
 ![images](./images/79.png)
 
 Output:
+
 ![images](./images/99.jpg)
 
 ### 6. Menambahkan halaman baru
@@ -348,4 +375,5 @@ Berikut class FavoritesPage baru:
 ![images](./images/80.png)
 
 Output:
+
 ![images](./images/100.jpg)
