@@ -31,8 +31,7 @@ Jika sudah selesai proses pembuatan project baru, pastikan tampilan seperti beri
 
 ## Praktikum 2: Menghubungkan Perangkat Android atau Emulator
 Untuk menampilkan opsi developer dan mengaktifkan Proses debug USB:
-Di perangkat Android, ketuk Settings > About phone.
-Ketuk Build number tujuh kali.
+Di perangkat Android, ketuk Settings > About phone. Ketuk Build number tujuh kali.
 
 ![images](./images/05.jpg)
 
@@ -55,8 +54,7 @@ Sambungkan perangkat Android ke komputer menggunakan kabel USB. Dialog yang memi
 
 ![images](./images/09.jpg)
 
-Pilih kotak centang Always allow from this computer, lalu ketuk OK.
-Di Android Studio di komputer, pastikan perangkat Anda dipilih di menu drop-down. Klik Ini adalah ikon Run Android Studio.
+Pilih kotak centang Always allow from this computer, lalu ketuk OK. Di Android Studio di komputer, pastikan perangkat Anda dipilih di menu drop-down. Klik Ini adalah ikon Run Android Studio.
 
 ![images](./images/10.png)
 
